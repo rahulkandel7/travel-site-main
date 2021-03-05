@@ -1,10 +1,10 @@
 <div class="container-fluid service">
     <div class="container">
-        <h2 class="serivce-heading"> 
+        <h2 class="serivce-heading hidden slideinUp"> 
             Why Book With Us?
         </h2>
-        <p class="info-serivce">Explore amazing deals for Flights, Hotel Bookings and Holiday Packages!</p>
-        <center><hr class="card-line marb"></center>
+        <p class="info-serivce hidden slideinUp">Explore amazing deals for Flights, Hotel Bookings and Holiday Packages!</p>
+        <center><hr class="card-line marb hidden slideinUp"></center>
         <div class="row">
             <div class="col-md-3 col-6 ico">
                 <div class="circle">

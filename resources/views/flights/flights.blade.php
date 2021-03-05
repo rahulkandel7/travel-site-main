@@ -40,17 +40,14 @@
         <!--Font awesome-->
         <script src="https://kit.fontawesome.com/535ccb550f.js" crossorigin="anonymous"></script>
     
-        <!-- Animate css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     </head>
     <body>
         @include('navbar')
         @include('marqueeandslide')
         @include('cards')
-        @include('service')
-        @include('deals')
+        
         @include('ourservice')
-        @include('testonomial')
+        
         @include('newsletter')
         @include('footer')
        
@@ -59,7 +56,6 @@
         <script src="{{URL::asset('js/app.js')}}"> </script>
         <script src="{{URL::asset('js/nav.js')}}"> </script>
         <script src="{{URL::asset('js/owl.carousel.js')}}"> </script>
-        <script src="{{URL::asset('js/owl.autoplay.js')}}"> </script>
 
 
         <script>            
@@ -106,8 +102,8 @@
                 margin:10,
                 nav:true,
                 dots: true,
-                autoplay: true,
-                autoplayTimeout: 2000,
+                autoplay:true,
+                autoplayTimeout:1000,
                 stagePadding: 50,
                 responsive:{
                     0:{
@@ -120,7 +116,7 @@
                         items:3
                     }
                 }
-            });
+            })
         </script>
     
 
@@ -260,37 +256,6 @@ window.onload = function() {
     }
   });
 });
-                    </script>
-
-
-                    <script>
-                        (function() {
-  var elements;
-  var windowHeight;
-
-  function init() {
-    elements = document.querySelectorAll('.hidden');
-    windowHeight = window.innerHeight;
-  }
-
-  function checkPosition() {
-    for (var i = 0; i < elements.length; i++) {
-      var element = elements[i];
-      var positionFromTop = elements[i].getBoundingClientRect().top;
-
-      if (positionFromTop - windowHeight <= 0) {
-        element.classList.add('slideinUp');
-        element.classList.remove('hidden');
-      }
-    }
-  }
-
-  window.addEventListener('scroll', checkPosition);
-  window.addEventListener('resize', init);
-
-  init();
-  checkPosition();
-})();
                     </script>
 
     </body>

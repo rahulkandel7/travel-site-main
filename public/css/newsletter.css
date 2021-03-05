@@ -38,6 +38,10 @@
     border: 0.1rem solid crimson;
 }
 
+.newslet{
+    margin-bottom: 0;
+}
+
 @media only screen and (min-width: 769px){
     .newsletter-text{
         font-size: 2rem;

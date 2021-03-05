@@ -16,7 +16,7 @@
 .img-logo{
     width: 6rem;
     height:6rem;
-    margin-top:2rem;
+    margin-top:.3rem;
 }
 /**Here**/
 .helpline{
@@ -106,19 +106,37 @@
 .hei{
     height:2.4rem;
 }
-
+.nepal{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+.mbl-down{
+    margin-top: -1.5rem !important;
+    margin-right:1rem;
+}
 /** Desktop media query for logos **/
 @media only screen and (min-width: 769px){
+    .mbl-down{
+        margin-top: .5rem !important;
+        margin-right:1rem;
+    }
     .container{
         width:85%  !important;
     }
     .hei{
         height:auto;
     }
-    
+    .number{
+        display: unset;
+        margin-right: .5rem;
+    }
+    .logo{
+        padding-bottom: 0.5rem;
+    }
     .info{
-        font-size:2rem;
-        margin-top:5rem;
+        font-size:1.6em;
+        margin-top:3rem;
         margin-right:3rem;
     }
     .img-logo{
@@ -154,16 +172,16 @@
         display: contents;
     }
     .lists{
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
     .side-info-mobile{
         display: none;
     }
     .navbar-desk{
-        background-color: rgba(148, 146, 146);
+        background-color: rgb(228, 225, 225);
     }
     .menu-item{
-        font-size: 1.9rem !important;
+        font-size: 1.7rem !important;
         color: black;
         transition: all .5s ease-in;
     }
@@ -171,12 +189,34 @@
         background-color: #f51616;
         color: white;
     }
+    
 }
 
+/* Mobile menu icon css */
+.menu-iccon {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .second{
+      margin-left:9px;
+      width: 26px;
+  }
+  .third{
+      margin-left:11px;
+      width: 24px;
+  }
 
 .nav-mains{
     /* background-color:grey; */
     box-shadow: none;
+    height: 5.1rem;
+    line-height: 5.1rem;
+}
+nav i {
+    height: 5.2rem !important;
+    line-height: 4.7rem !important;
 }
 nav{
     background-color: transparent !important;
@@ -184,7 +224,7 @@ nav{
 
 nav .ham{
     float:right  !important;
-    margin-top: -9.5rem !important;
+    margin-top: -8rem !important;
     color: black !important;
     margin-left: 27rem !important;
 }
@@ -196,6 +236,11 @@ nav .ham{
 @media only screen and (min-width:426px) and (max-width:768px){
     nav .ham{margin-left: 60rem !important;}
 }
+
+@media only screen and (min-width:1000px) and (max-width:1024px){
+    .desmanage{right: 0 !important;}
+}
+
 nav .lines:active{
     color: #f51616;
 }
@@ -227,4 +272,18 @@ nav .lines:active{
     position: fixed;
     z-index: 332222222;
     top:0;
+}
+
+.desmanage{
+    border:1px solid #f51616;
+    color:black;
+    border-radius: 0.5rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+    position: absolute;
+    right:5.4rem;
+}
+.desmanage:hover{
+    background-color:#f51616;
+    border-radius: 2rem;
 }

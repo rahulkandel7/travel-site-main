@@ -12,10 +12,12 @@
                     <span class="helpline">24 &#215; 7 Customer Service Helpline </span>
                     <span class="call-logo"> <i class="fas fa-phone-alt"></i> </span>
                     <span class="number">9815209300</span>
-                    <span class="country-map"></span>
+                    <span class="country-map">
+                        <img src="{{ asset( 'img/nepal.svg' ) }}" alt="Nepal Flag" class="img-fluid nepal">
+                    </span>
                     <span class="country-name">Nepal</span>
     
-                    <div class="dropdown" style="float:right; ">
+                    <div class="dropdown mbl-down" style="float:right; margin-top:0.5rem; ">
                         <button class="option dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-user-alt person" ></i><span class="sign">Sign In</span>
                         </button>
@@ -43,9 +45,13 @@
     
     <div class="container-fluid navbar-desk hei">
         <div class="container">
-            <nav class="nav-mains">
+            <nav class="nav-mains"  >
                 <div class="nav-wrapper nav-mains">
-                  <a href="#" data-target="mobile-demo" class="sidenav-trigger ham"><i class="fas fa-bars lines"></i></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger ham">
+                  <div class="menu-iccon"></div>
+<div class="second menu-iccon"></div>
+<div class="third menu-iccon"></div>
+                  </a>
                   <ul class="left hide-on-med-and-down">
                     <li class="menu-item"><a href="" class="menu-item"> <i class="fas fa-home"></i> </a></li>
                     <li class="menu-item"><a href="" class="menu-item">Flights</a></li>
@@ -55,6 +61,8 @@
                     <li class="menu-item"><a href="" class="menu-item">Visa</a></li>
                     <li class="menu-item"><a href="" class="menu-item">Insurance</a></li>
                     <li class="menu-item"><a href="" class="menu-item">Travel Diaries</a></li>
+                    <li class="desk-btn-manage"><a href="" class="menu-item desmanage">Manage Booking</a></li>
+
                   </ul>
                 </div>
               </nav>

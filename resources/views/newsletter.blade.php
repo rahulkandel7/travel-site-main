@@ -1,6 +1,6 @@
-<div class="container-fluid" style="background-color:grey;"> 
+<div class="container-fluid" style="background-color:#ccc;"> 
     <div class="container">
-        <div class="row"> 
+        <div class="row newslet"> 
             <div class="col-md-6">
                 <p class="newsletter-text">
                     <i class="far fa-envelope"></i>

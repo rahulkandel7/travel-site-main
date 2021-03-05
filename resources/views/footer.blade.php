@@ -1,6 +1,6 @@
-<div class="container-fluid">
-    <div class="container">
-        <div class="row">
+<div class="container-fluid footer">
+    <div class="container ">
+        <div class="row" style="padding-bottom:3rem;">
             <div class="col-md-4">
                 <h3 class="name">
                     Company Info
@@ -45,13 +45,19 @@
                 <hr class="company">
                 <ul>
                     <li>
-                        <a href="#" class="company-link">FACEBOOK</a>
+                        <a href="#" class="company-link">
+                        <i class="fab fa-facebook-f fb"></i>
+                        Facebook</a>
                     </li>
                     <li>
-                        <a href="#" class="company-link">INSTAGRAM </a>
+                        <a href="#" class="company-link">
+                        <i class="fab fa-instagram insta"></i>    
+                        Instagram </a>
                     </li>
                     <li>
-                        <a href="#" class="company-link">TELEGRAM </a>
+                        <a href="#" class="company-link">
+                        <i class="fab fa-telegram-plane telegram" ></i>    
+                        Telegram </a>
                     </li>
                     
                 </ul>

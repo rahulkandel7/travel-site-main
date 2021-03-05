@@ -3,7 +3,7 @@
 }
 .company{
     width: 40%;
-    border-color:  rgb(75, 73, 73);
+    border:1px solid rgb(243, 235, 235);
 }
 .company-link{
     font-size: 1.4rem;
@@ -18,4 +18,32 @@
 }
 .bits-date{
     float: right;
+}
+.footer{
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fb{
+    color: #3b5998;
+    margin-right:0.5rem;
+}
+.insta{
+    color:#E1306C;
+    margin-right:0.5rem;
+}
+.telegram{
+    color:#0088cc;
+    margin-right:0.5rem;
+}
+
+.bits-name{
+    font-size:2rem;
+}
+.bits-date{
+    font-size: 2rem;
+}
+.bits-date a{
+    color:#E1306C !important;
 }

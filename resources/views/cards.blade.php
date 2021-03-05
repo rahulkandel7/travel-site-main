@@ -1,5 +1,5 @@
 <div class="container-fluid martop">
-    <div class="container">
+    <div class="container hidden slideinUp">
         <h2 class="trending">
             <span class="trend">Trending</span>
             <span class="now">Now</span>
@@ -12,22 +12,34 @@
 <div class="container">
     <div class="owl-carousel owl-theme">
         <div class="item">
-            <img src="{{ asset('img/1.jpg') }}" alt="" class="img-fluid">
+            <a href="#">
+                <img src="{{ asset('img/demo.jpg') }}" alt="" class="img-fluid">
+            </a>
         </div>
         <div class="item">
-            <img src="{{ asset('img/2.jpg') }}" alt=""  class="img-fluid">
+            <a href="">
+                <img src="{{ asset('img/romance.jpg') }}" alt=""  class="img-fluid">
+            </a>
         </div>
         <div class="item">
-            <img src="{{ asset('img/3.jpg') }}" alt=""  class="img-fluid">
+            <a href="">
+                <img src="{{ asset('img/passport.jpg') }}" alt=""  class="img-fluid">
+            </a>
         </div>
         <div class="item">
-            <img src="{{ asset('img/1.jpg') }}" alt=""  class="img-fluid">
+            <a href="">
+                <img src="{{ asset('img/flight.jpg') }}" alt=""  class="img-fluid">
+            </a>
         </div>
         <div class="item">
-            <img src="{{ asset('img/3.jpg') }}" alt=""  class="img-fluid">
+            <a href="">
+                <img src="{{ asset('img/holy.jpg') }}" alt=""  class="img-fluid">
+            </a>
         </div>
         <div class="item">
-            <img src="{{ asset('img/2.jpg') }}" alt=""  class="img-fluid">
+            <a href="">
+                <img src="{{ asset('img/romance.jpg') }}" alt=""  class="img-fluid">    
+            </a>
         </div>
     </div>
 </div>

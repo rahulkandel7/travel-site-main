@@ -1,4 +1,4 @@
-<div class="ourservice-text">
+<div class="ourservice-text hidden slideinUp">
     <p class="our">Client <span class="servicess">Testonomial</span></p>
     <p class="text-servess">Our reviews based on clients</p>
 </div>
@@ -27,25 +27,25 @@
                             </div>
         
                             <div>
-                                <div class="img"><img src="https://image.ibb.co/cNP817/pexels_photo_220453.jpg" alt=""></div>
+                                <div class="img"><img src="{{ asset('img/1.jpg') }}" alt=""></div>
                                 <h2>Mr. Lorem Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
         
                             <div>
-                                <div class="img"><img src="https://image.ibb.co/iN3qES/pexels_photo_324658.jpg" alt=""></div>
+                                <div class="img"><img src="{{ asset('img/1.jpg') }}" alt=""></div>
                                 <h2>Lorem Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
         
                             <div>
-                                <div class="img"><img src="https://image.ibb.co/kL6AES/Top_SA_Nicky_Oppenheimer.jpg" alt=""></div>
+                                <div class="img"><img src="{{ asset('img/1.jpg') }}" alt=""></div>
                                 <h2>Lorem De Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
         
                             <div>
-                                <div class="img"><img src="https://image.ibb.co/gUPag7/image.jpg" alt=""></div>
+                                <div class="img"><img src="{{ asset('img/1.jpg') }}" alt=""></div>
                                 <h2>Ms. Lorem R. Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>

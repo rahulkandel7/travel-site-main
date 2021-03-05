@@ -1,7 +1,7 @@
 .marq{
     background-color: #f9a927;
     position: absolute;
-    top:11.5rem;
+    top:9.8rem;
 }
 .marque-slide{
     font-size:1rem;
@@ -9,7 +9,7 @@
     padding-top:.5rem;
 }
 marquee{
-    width:80%;
+    width:95%;
 }
 .mar{
     display:inline-block;
@@ -17,16 +17,21 @@ marquee{
 /* .know{
     float:right;
 } */
+
+
 .know-btn{
     position: absolute;
     top:0;
     padding:.5rem;
     font-size:1rem;
-    right:0.1rem;
+    right:3.5rem;
     background-color: #f51616;
     margin:0;
     color: white;
     transition: all .5s ease-out;
+}
+@media only screen and (min-width:630px) and (max-width:768px){
+  .know-btn{right:8rem;}
 }
 .know-btn:hover{
     color: #f51616;
@@ -39,18 +44,18 @@ marquee{
         position:unset;
     }
     .marque-slide{
-        font-size:2rem;
+        font-size:1.5rem;
         font-weight:bold;
     }
     marquee{
-        width:90%;
+        width:110%;
     }
     .know-btn{
         position: absolute;
-        top:16.2rem;
-        padding:.8rem;
-        font-size:2rem;
-        right:16rem;
+        top:13.95rem;
+        padding:.5rem 1rem;
+        font-size:1.5rem;
+        right:20rem;
         background-color: #f51616;
         margin:0;
         color: white;
@@ -142,3 +147,4 @@ marquee{
     padding:0 !important;
     margin: 0 !important;
   }
+ 

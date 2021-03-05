@@ -5,9 +5,9 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vitae, saepe quam aperiam n
             </marquee>
         </div>
-        {{-- <div class="know"> --}}
+        <div class="know">
             <a href="#" class="know-btn">Know More</a>
-        {{-- </div> --}}
+        </div> 
     </div>
 </div>
 
@@ -17,15 +17,15 @@
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides">
-      <img src="{{ asset('img/1.jpg') }}" style="width:100%; height:50vh;">
+      <img src="{{ asset('img/1.jpg') }}" style="width:100%; height:40rem;">
     </div>
   
     <div class="mySlides">
-      <img src="{{ asset('img/2.jpg') }}" style="width:100%; height:50vh;">
+      <img src="{{ asset('img/2.jpg') }}" style="width:100%; height:40rem;">
     </div>
   
     <div class="mySlides">
-      <img src="{{ asset('img/3.jpg') }}" style="width:100%; height:50vh;">
+      <img src="{{ asset('img/3.jpg') }}" style="width:100%; height:40rem;">
     </div>
   
     <!-- Next and previous buttons -->

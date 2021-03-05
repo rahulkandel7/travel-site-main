@@ -1,0 +1,45 @@
+.martop{
+    margin-top:5rem;
+}
+.trending{
+    font-size:2rem;
+    text-align: center;
+}
+.trend{
+    color:#0b8bd1;
+}
+.now{
+    color:#f51616;
+}
+.info-card{
+    text-align: center;
+    font-size:1rem;
+    color: rgb(49, 49, 49);
+}
+.card-line{
+    width: 20%;
+    border-top: 1rem dotted #177eb6;
+    background-color: transparent;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 769px){
+    .martop{
+        margin-top:7rem;
+    }
+    .trending{
+        font-size:4rem;
+    }
+    .info-card{
+        font-size:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+

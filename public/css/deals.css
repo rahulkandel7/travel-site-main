@@ -1,0 +1,132 @@
+.deals-heading{
+    text-align:center;
+    font-size:2rem;
+    margin-top:0.5rem;
+    margin-bottom:1rem;
+    color: blue
+}
+.deals-text{
+    text-align:center;
+    
+    color: grey;
+    font-size:1rem;
+}
+.type{
+    color:crimson;
+}
+.deals-line{
+    width: 50%;
+    border-top: 1rem dotted #177eb6;
+    background-color: transparent;
+    margin-bottom: 2rem;
+}
+.triangle-path{
+    clip-path: polygon(48% 33%, 0 0, 100% 0);
+    background-color: blanchedalmond;
+    position: absolute;
+    z-index: 55;
+    padding: 1.5rem;
+    margin-left:10rem;
+}
+.deal-row:hover img{
+    transform: scale(1.5);
+}
+.deal-txt{
+    text-align: center;
+    font-weight: bold;
+    font-size:1.5rem;
+    padding-top: 1.8rem;
+}
+.deal-row{
+    margin-bottom: 0;
+}
+.normaal{
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+.fare{
+    text-align: center;
+    font-size: 1.1rem;
+}
+.price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.buttoon{
+    text-align: center;
+}
+.booknow{
+    padding: .5rem 1rem;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 2rem;
+}
+.booknow:hover{
+    color:crimson;
+    background-color: white;
+    border-radius: 1px solid crimson;
+}
+.bgcolor{
+    background-color: #eec0c8;
+}
+
+@media only screen and (min-width: 769px){
+    .deals-heading{
+        text-align:center;
+        font-size:3rem;
+        margin-top:0.5rem;
+        margin-bottom:1rem;
+        
+    }
+    .deals-text{
+        text-align:center;
+        font-size:1.6rem;
+    }
+    .deals-line{
+        width: 50%;
+        border-top: 1rem dotted #177eb6;
+        background-color: transparent;
+        margin-bottom: 2rem;
+    }
+    .triangle-path{
+        clip-path: polygon(48% 33%, 0 0, 100% 0);
+        background-color: blanchedalmond;
+        position: absolute;
+        z-index: 55;
+        padding: 1.5rem;
+        margin-left:10rem;
+    }
+    .deal-row:hover img{
+        transform: scale(1.5);
+    }
+    .deal-txt{
+        text-align: center;
+        font-weight: bold;
+        font-size:2.5rem;
+        padding-top: 1.8rem;
+    }
+    .normaal{
+        font-weight: normal;
+        font-size: 1.4rem;
+    }
+    .fare{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .price{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    .booknow{
+        padding: .5rem 1rem;
+        color: white;
+        background-color: crimson;
+        text-align: center;
+        font-size: 1.6rem;
+        border-radius: 2rem;
+    }
+       
+}

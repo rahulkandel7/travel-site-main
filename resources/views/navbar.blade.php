@@ -1,0 +1,77 @@
+<div id="nav-bar" class="container-fluid" style="padding: 0">
+   <div class="container-fluid" style="background-color: white">
+    <div class="container" >
+        <div class="row" style="margin-bottom:0">
+            <div class="col-md-12">
+                <div class="logo">
+                    <a href="#">
+                        <img src="{{URL::asset('img/logo.png')}}" alt="Pangolin Travel" class="img-logo">
+                    </a>
+                </div>
+                <div class="info">
+                    <span class="helpline">24 &#215; 7 Customer Service Helpline </span>
+                    <span class="call-logo"> <i class="fas fa-phone-alt"></i> </span>
+                    <span class="number">9815209300</span>
+                    <span class="country-map"></span>
+                    <span class="country-name">Nepal</span>
+    
+                    <div class="dropdown" style="float:right; ">
+                        <button class="option dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user-alt person" ></i><span class="sign">Sign In</span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item lists" href="#"> <i class="fas fa-chevron-right"></i> Log In</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item lists" href="#"> <i class="fas fa-chevron-right"></i> Sign Up</a></li>
+                        </ul>
+                      </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    <div class="container-fluid side-info-mobile" style="background-color: grey;">
+        <div class="container d-flex justify-content-center">
+            <div class="sideinfos">
+                <span class="side-call-logo"> <i class="fas fa-phone-alt"></i> </span>
+                    <span class="side-number">9815209300</span>
+            </div>
+        </div>
+    </div>
+    {{-- NavBar --}}
+    
+    <div class="container-fluid navbar-desk hei">
+        <div class="container">
+            <nav class="nav-mains">
+                <div class="nav-wrapper nav-mains">
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger ham"><i class="fas fa-bars lines"></i></a>
+                  <ul class="left hide-on-med-and-down">
+                    <li class="menu-item"><a href="" class="menu-item"> <i class="fas fa-home"></i> </a></li>
+                    <li class="menu-item"><a href="" class="menu-item">Flights</a></li>
+                    <li class="menu-item"><a href="" class="menu-item">Hotel</a></li>
+                    <li class="menu-item"><a href="" class="menu-item">Holiday</a></li>
+                    <li class="menu-item"><a href="" class="menu-item">Forex</a></li>
+                    <li class="menu-item"><a href="" class="menu-item">Visa</a></li>
+                    <li class="menu-item"><a href="" class="menu-item">Insurance</a></li>
+                    <li class="menu-item"><a href="" class="menu-item">Travel Diaries</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="" class="sidemenu-item"> <i class="fas fa-home"></i> </a></li>
+                <li><a href="" class="sidemenu-item">Flights</a></li>
+                <li><a href="" class="sidemenu-item">Hotel</a></li>
+                <li><a href="" class="sidemenu-item">Holiday</a></li>
+                <li><a href="" class="sidemenu-item">Forex</a></li>
+                <li><a href="" class="sidemenu-item">Visa</a></li>
+                <li><a href="" class="sidemenu-item">Insurance</a></li>
+                <li><a href="" class="sidemenu-item">Travel Diaries</a></li>
+                <li class="btn-manage"><a href="" class="sidemenu-item ">Manage Booking</a></li>
+              </ul>
+              
+              
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,81 @@
+.newsletter-text{
+    text-align:right;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.newsletter-text i{
+    font-size: 2rem;
+    color: crimson;
+}
+.te{
+    margin-left:1rem;
+}
+.email-subs{
+    border: 0.1rem solid rgb(190, 188, 188) !important;
+    box-shadow: 0.2rem 0.2rem 0.5rem white;
+    width: 60% !important;
+    transition: all 1s ease-in;
+    padding: 0 0.5rem !important;
+    color:crimson;
+    
+}
+.email-subs:focus{
+    border: 0.1rem solid crimson !important;
+}
+
+.btn-subs{
+    padding:1.05rem;
+    background-color: crimson;
+    color: white;
+    border:none;
+    position: absolute;
+}
+.btn-subs:active, .btn-subs:focus{
+    color:crimson;
+    background-color: white;
+    border: 0.1rem solid crimson;
+}
+
+@media only screen and (min-width: 769px){
+    .newsletter-text{
+        font-size: 2rem;
+    }
+    
+    .newsletter-text i{
+        font-size: 2rem;
+    }
+    .te{
+        margin-left:0;
+    }
+    .email-subs{
+        border: 0.1rem solid rgb(190, 188, 188) !important;
+        box-shadow: 0.2rem 0.2rem 0.5rem white;
+        width: 60% !important;
+        transition: all 1s ease-in;
+        padding: 0 0.5rem !important;
+        color:crimson;
+        
+    }
+    .email-subs:focus{
+        border: 0.1rem solid crimson !important;
+    }
+    
+    .btn-subs{
+        padding:1.05rem;
+        background-color: crimson;
+        color: white;
+        border:none;
+        position: absolute;
+        transition: all 0.8s ease-in;
+    }
+    .btn-subs:active, .btn-subs:focus, .btn-subs:hover{
+        color:crimson;
+        background-color: white;
+        border: 0.1rem solid crimson;
+    }
+    .subscribtion{
+        margin-top:1.5rem;
+    }
+}

@@ -1,0 +1,21 @@
+.name{
+    font-weight: bold;
+}
+.company{
+    width: 40%;
+    border-color:  rgb(75, 73, 73);
+}
+.company-link{
+    font-size: 1.4rem;
+    color: black;
+    transition: all .5s ease-in-out;
+}
+.company-link:hover{
+    color: crimson !important;
+}
+.bits-name{
+    float:left;
+}
+.bits-date{
+    float: right;
+}

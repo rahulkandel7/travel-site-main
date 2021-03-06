@@ -153,6 +153,14 @@ background: linear-gradient(to left, #a83279c7, #d38212c2); /* W3C, IE 10+/ Edge
 
 }
 
+.slidein{
+    animation: slidein;
+    animation-duration: 2s;
+    -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
 @keyframes slideinUp{
     0%{
         opacity:0;
@@ -164,6 +172,21 @@ background: linear-gradient(to left, #a83279c7, #d38212c2); /* W3C, IE 10+/ Edge
     }
 }
 
+@keyframes slidein{
+    0%{
+        opacity:0;
+        transform: translateX(-4rem);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
 .hidden {
     opacity: 0;
+  }
+
+  .hide{
+      opacity:0;
   }

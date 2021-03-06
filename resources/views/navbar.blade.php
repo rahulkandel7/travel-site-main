@@ -11,7 +11,7 @@
                 <div class="info">
                     <span class="helpline">24 &#215; 7 Customer Service Helpline </span>
                     <span class="call-logo"> <i class="fas fa-phone-alt"></i> </span>
-                    <span class="number">9815209300</span>
+                    <span class="number">9851118863</span>
                     <span class="country-map">
                         <img src="{{ asset( 'img/nepal.svg' ) }}" alt="Nepal Flag" class="img-fluid nepal">
                     </span>
@@ -22,9 +22,9 @@
                             <i class="fas fa-user-alt person" ></i><span class="sign">Sign In</span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item lists" href="#"> <i class="fas fa-chevron-right"></i> Log In</a></li>
+                          <li><a class="dropdown-item lists slidein" href="#"> <i class="fas fa-chevron-right"></i> Log In</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item lists" href="#"> <i class="fas fa-chevron-right"></i> Sign Up</a></li>
+                          <li><a class="dropdown-item lists slidein" href="#"> <i class="fas fa-chevron-right"></i> Sign Up</a></li>
                         </ul>
                       </div>
     
@@ -37,7 +37,7 @@
         <div class="container d-flex justify-content-center">
             <div class="sideinfos">
                 <span class="side-call-logo"> <i class="fas fa-phone-alt"></i> </span>
-                    <span class="side-number">9815209300</span>
+                    <span class="side-number">9851118863</span>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@
 <div class="third menu-iccon"></div>
                   </a>
                   <ul class="left hide-on-med-and-down">
-                    <li class="menu-item"><a href="" class="menu-item"> <i class="fas fa-home"></i> </a></li>
+                    <li class=" menu-item " style="background-color:#f51616"><a href="" class="menu-item "> <i class="fas fa-home active"></i> </a></li>
                     <li class="menu-item"><a href="" class="menu-item">Flights</a></li>
                     <li class="menu-item"><a href="" class="menu-item">Hotel</a></li>
                     <li class="menu-item"><a href="" class="menu-item">Holiday</a></li>

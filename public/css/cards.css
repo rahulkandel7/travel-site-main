@@ -141,4 +141,23 @@
 }
 
 
+.owl-dots{
+    display: none !important;
+}
+
+.owl-prev{
+    position: absolute;
+    top:40%;
+    left:5%;
+    font-size: 8rem !important;
+    color: khaki !important;
+}
+
+.owl-next{
+    position: absolute;
+    top:40%;
+    right:5%;
+    font-size: 8rem !important;
+    color: khaki !important;
+}
 

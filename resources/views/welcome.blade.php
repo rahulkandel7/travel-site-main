@@ -7,8 +7,12 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+
+
         <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/material.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/navbar.css')}}">
@@ -22,6 +26,7 @@
         <link rel="stylesheet" href="{{URL::asset('css/testonomial.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/newsletter.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/footer.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/flightselect.css')}}">
 
 
         <style>
@@ -60,6 +65,7 @@
         <script src="{{URL::asset('js/nav.js')}}"> </script>
         <script src="{{URL::asset('js/owl.carousel.js')}}"> </script>
         <script src="{{URL::asset('js/owl.autoplay.js')}}"> </script>
+        <script src="{{URL::asset('js/owl.navigation.js')}}"> </script>
 
 
         <script>            
@@ -107,7 +113,8 @@
                 nav:true,
                 dots: true,
                 autoplay: true,
-                autoplayTimeout: 2000,
+                autoplayTimeout: 2500,
+                autoplayHoverPause:true,
                 stagePadding: 50,
                 responsive:{
                     0:{

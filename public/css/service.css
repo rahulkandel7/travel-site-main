@@ -1,6 +1,5 @@
 .service{
     background-color: rgb(223, 213, 215);
-    margin-top:3rem;
 }
 .serivce-heading{
     font-size:1.8rem;
@@ -42,11 +41,11 @@
     background-color: yellow;
     border: none;
 }
+.service{
+    margin-top:3rem !important;
+}
 
 @media only screen and (min-width: 769px){
-    .service{
-        margin-top:5rem;
-    }
     .serivce-heading{
         font-size:3rem;
     }

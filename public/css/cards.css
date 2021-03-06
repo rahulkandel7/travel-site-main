@@ -33,13 +33,112 @@
     .info-card{
         font-size:1.5rem;
     }
+    .item__overlay{
+        position: absolute;
+        top: 0;
+        width:100%;
+        height:100%;
+        background-color:rgba(15, 126, 182, 0.9);
+        opacity:0;
+    }
+    .item__overlay:hover{
+        opacity: 1;
+    }
+    .item__overlay-heading{
+        padding-top:12rem;
+        text-align: center;
+        color:white;
+        font-size:3rem;
+    }
+    .item__overlay--description{
+        padding-top:1rem;
+        text-align: center;
+        color:white;
+        font-size:2.2rem;
+        margin-bottom: 9rem;
+    }
+    .item__overlay--btn{
+        padding: 0.8rem 3.3rem;
+        background-color: #f51616;
+        margin-top:2rem;
+        margin-left:10rem;
+        color:white;
+        font-size: 1.6rem;
+        transition: all .4s ease-in-out;
+    }
+    .item__overlay--btn:hover{
+        border-radius: 3rem;
+        color:white
+    }
 }
 
 
+.item{
+    position: relative;
+}
+
+.item__overlay{
+    position: absolute;
+    top: 0;
+    width:100%;
+    height:100%;
+    background-color:rgba(15, 126, 182, 0.9);
+    opacity:0;
+}
+.item__overlay:hover{
+    opacity: 1;
+}
+.item__overlay-heading{
+    padding-top:4rem;
+    text-align: center;
+    color:white;
+    font-size:2.2rem;
+}
+.item__overlay--description{
+    padding-top:1rem;
+    text-align: center;
+    color:white;
+    font-size:1.8rem;
+    margin-bottom: 3rem;
+}
+.item__overlay--btn{
+    padding: 0.8rem 3.3rem;
+    background-color: #f51616;
+    margin-left:6rem;
+    color:white;
+    font-size: 1.3rem;
+    transition: all .4s ease-in-out;
+}
+.item__overlay--btn:hover{
+    border-radius: 3rem;
+    color:white
+}
 
 
-
-
+@media only screen and (min-width: 1355px) and (max-width:1922px){
+    .item__overlay-heading{
+        padding-top:10rem;
+        text-align: center;
+        color:white;
+        font-size:3.2rem;
+    }
+    .item__overlay--description{
+        padding-top:1rem;
+        text-align: center;
+        color:white;
+        font-size:2.4rem;
+        margin-bottom: 3rem;
+    }
+    .item__overlay--btn{
+        padding: 0.8rem 3.3rem;
+        background-color: #f51616;
+        margin-left:10rem;
+        color:white;
+        font-size: 1.8rem;
+        transition: all .4s ease-in-out;
+    }
+    
+}
 
 
 

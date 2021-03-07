@@ -287,7 +287,7 @@ nav .lines:active{
     background-color:#f51616;
     border-radius: 2rem;
 }
-.active{
+.active-home{
     background-color: #f51616 !important;
     color: white !important;
 }

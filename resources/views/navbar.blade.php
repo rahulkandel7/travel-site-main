@@ -55,7 +55,7 @@
 <div class="third menu-iccon"></div>
                   </a>
                   <ul class="left hide-on-med-and-down">
-                    <li class=" menu-item " style="background-color:#f51616"><a href="" class="menu-item "> <i class="fas fa-home active"></i> </a></li>
+                    <li class=" menu-item " style="background-color:#f51616"><a href="" class="menu-item "> <i class="fas fa-home active-home"></i> </a></li>
                     <li class="menu-item"><a href="" class="menu-item">Flights</a></li>
                     <li class="menu-item"><a href="" class="menu-item">Hotel</a></li>
                     <li class="menu-item"><a href="" class="menu-item">Holiday</a></li>

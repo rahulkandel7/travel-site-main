@@ -10,8 +10,8 @@
                 </div>
                 <div class="info">
                     <span class="helpline">24 &#215; 7 Customer Service Helpline </span>
-                    <span class="call-logo"> <i class="fas fa-phone-alt"></i> </span>
-                    <span class="number">9851118863</span>
+                    <span class="call-logo"> <i class="fab fa-viber" style="color:#665CAC;"></i> <i class="fab fa-whatsapp" style="color:#25D366;"></i></span>
+                    <span class="number">+977-9851118863</span>
                     <span class="country-map">
                         <img src="{{ asset( 'img/nepal.svg' ) }}" alt="Nepal Flag" class="img-fluid nepal">
                     </span>
@@ -36,8 +36,10 @@
     <div class="container-fluid side-info-mobile" style="background-color: grey;">
         <div class="container d-flex justify-content-center">
             <div class="sideinfos">
-                <span class="side-call-logo"> <i class="fas fa-phone-alt"></i> </span>
-                    <span class="side-number">9851118863</span>
+                <span class="side-call-logo"> <i class="fab fa-viber" style="color:#665CAC;"></i>  
+                <i class="fab fa-whatsapp" style="color:#25D366;"></i>
+                </span>
+                    <span class="side-number">+977-9851118863</span>
             </div>
         </div>
     </div>

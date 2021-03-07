@@ -59,6 +59,18 @@
                         <i class="fab fa-telegram-plane telegram" ></i>    
                         Telegram </a>
                     </li>
+                    <li>
+                        <a href="" class="company-link">
+                        <i class="fab fa-viber" style="color:#665CAC;"></i>  
+                        9851118863
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="company-link">
+                            <i class="fab fa-whatsapp" style="color:#25D366;"></i>
+                            9851118863
+                        </a>
+                    </li>
                     
                 </ul>
             </div>
@@ -72,6 +84,9 @@
             <p class="visa bits-date">
                 We accept <span class="visa--image" style="margin-right:1rem">
                     <img src="{{ asset('img/visa.jpg') }}" alt="">
+                    <img src="{{ asset('img/connectips.png') }}" alt="">
+                    <img src="{{ asset('img/esewa.png') }}" alt="">
+                    <img src="{{ asset('img/khalti.png') }}" alt="">
                 </span>
             </p>
         </div>

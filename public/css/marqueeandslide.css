@@ -185,4 +185,71 @@ marquee{
   padding-top: 2rem;
   padding-left: 2rem;
 }
+form{
+  font-size:1.6rem;
+}
+.from{
+  display: inline-block;
+}
+.from:focus{
+  border-bottom: 0.2rem solid #f51616 !important;
+  box-shadow: none !important;
+}
 
+.datepicker-modal{
+  width:auto !important;
+  height: auto !important;
+}
+
+.datepicker-date-display{
+  background-color: #f51616 !important;
+}
+
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span{
+  font-size:2rem;
+  color: black;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after{
+  background-color: #f51616;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after{
+  border: 1px solid #f51616;
+}
+
+.input-field>label{
+  font-size: 1.4rem;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+  color:black;
+  font-size: 2rem;
+}
+
+label{
+  color:black;
+  font-size: 1.4rem;
+}
+
+.switch label input[type=checkbox]:checked+.lever{
+  background-color: #f51616;
+  opacity: 0.7;
+}
+.switch label input[type=checkbox]:checked+.lever:after{
+  background-color: #f51616;
+}
+
+.search{
+  padding: 1rem 1.4rem;
+  background-color:#f51616;
+  border-radius: 30rem;
+  color:white;
+  transition: all .8s ease-in-out;
+}
+
+.search:hover{
+  border:1px solid #f51616;
+  background-color: white;
+  color: #f51616;
+}

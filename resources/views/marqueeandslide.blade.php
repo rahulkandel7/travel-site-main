@@ -29,20 +29,72 @@
 <!--Flights form -->
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-  <form action="#">
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12">
+    <form action="#">
     <p>
       <label>
-        <input name="group1" type="radio" checked class="selectflight"/>
-        <span>Round Trip</span>
+        <input name="group1" type="radio" checked />
+        <span>Round way</span>
       </label>
-
       <label>
         <input name="group1" type="radio" checked />
         <span>One way</span>
       </label>
     </p>
+    <div class="selectflight">
+          <div class="input-field inline">
+            <input id="from_city" type="text" class="validate from">
+            <label for="from-city">From City</label>
+          </div>  
+          <div class="input-field inline">
+            <input id="to_city" type="text" class="validate from">
+            <label for="to_city">To City</label>
+          </div>  
+          <div class="input-field inline">
+            <input id="departure_date" type="text" class="validate from datepicker">
+            <label for="departure_date">Departure Date</label>
+          </div>  
+          <div class="input-field inline">
+            <input id="return_date" type="text" class="validate from datepicker">
+            <label for="return_date">Return Date</label>
+          </div>  
+          <div class="input-field inline">
+            <input id="adults" type="number" class="validate from">
+            <label for="adults">Adult(18+)</label>
+          </div>  
+          <div class="input-field inline">
+            <input id="children" type="number" class="validate from">
+            <label for="children">Children(0-17)</label>
+          </div>  
+          <!-- Switch -->
+          <div class="switch inline" style="display:inline-block;">
+            <label>
+              <input type="checkbox">
+              <span class="lever"></span>
+              SHOW DIRECT FLIGHTS ONLY
+            </label>
+          </div>
+          <!-- Switch -->
+          <div class="switch inline" style="display:inline-block;">
+            <label>
+              <input type="checkbox">
+              <span class="lever"></span>
+              REFUNDABLE FLIGHTS   
+            </label>
+          </div>
+
+          <div class="d-flex justify-content-center" style="margin-top:1rem;">
+          <a href="#" class="search">Manage Booking</a>
+          </div>
+
+
+    </div>
+     
     
   </form>
+    </div>
+  </div>
         
   </div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Flight Booking</div>

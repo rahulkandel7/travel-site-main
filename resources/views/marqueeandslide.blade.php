@@ -85,7 +85,7 @@
           </div>
 
           <div class="d-flex justify-content-center" style="margin-top:1rem;">
-          <a href="#" class="search">Manage Booking</a>
+          <a href="#" class="search">Search</a>
           </div>
 
 

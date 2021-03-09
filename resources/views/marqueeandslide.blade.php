@@ -25,8 +25,26 @@
     <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-umbrella-beach" style="margin-right:0.3rem;"></i> Holiday</button>
   </li>
 </ul>
+
+<!--Flights form -->
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home booking</div>
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked class="selectflight"/>
+        <span>Round Trip</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>One way</span>
+      </label>
+    </p>
+    
+  </form>
+        
+  </div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Flight Booking</div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Booking</div>
 </div>

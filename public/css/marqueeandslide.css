@@ -177,6 +177,7 @@ marquee{
 .tab-content{
   background-color: rgba(255,255,255,.9);
   font-size: 1.5rem;
+  border-bottom: 0.8rem solid #f51616;
 
 }
 
@@ -184,3 +185,4 @@ marquee{
   padding-top: 2rem;
   padding-left: 2rem;
 }
+

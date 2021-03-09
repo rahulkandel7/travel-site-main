@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="{{URL::asset('css/testonomial.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/newsletter.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/footer.css')}}">
-
+        <link rel="stylesheet" href="{{URL::asset('css/flightselect.css')}}">
 
         <style>
             *{

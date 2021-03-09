@@ -76,13 +76,14 @@
             </div>
         </div>
         <div class="bits">
-            <p class="bits-name">&copy; Copyright 2021</p>
+            <p class="bits-name">&copy; Copyright 2021 Pangolin Travels</p>
             
-            <p class="bits-date">
-                <a href="https://www.bitmapitsolutions.com"> BITS </a>
+            <p class="bits-name" style="margin-left:0.3rem">
+                Powered By:
+                <a href="https://www.bitmapitsolution.com"> BITS </a>
             </p>
             <p class="visa bits-date">
-                We accept <span class="visa--image" style="margin-right:1rem">
+                We accept <span class="visa--image" >
                     <img src="{{ asset('img/visa.jpg') }}" alt="">
                     <img src="{{ asset('img/connectips.png') }}" alt="">
                     <img src="{{ asset('img/esewa.png') }}" alt="">

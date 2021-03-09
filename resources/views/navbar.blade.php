@@ -1,6 +1,6 @@
 <div id="nav-bar" class="container-fluid" style="padding: 0">
    <div class="container-fluid" style="background-color: white">
-    <div class="container" >
+    <div class="container" style="width:89% !important">
         <div class="row" style="margin-bottom:0">
             <div class="col-md-12">
                 <div class="logo">

@@ -38,7 +38,8 @@
 }
 .ico:hover .fas{
     transform: scale(1.2);
-    background-color: yellow;
+    background-color: #fab822;
+    color: white;
     border: none;
 }
 .service{

@@ -115,7 +115,6 @@
                 autoplay: true,
                 autoplayTimeout: 2500,
                 autoplayHoverPause:true,
-                stagePadding: 50,
                 responsive:{
                     0:{
                         items:1

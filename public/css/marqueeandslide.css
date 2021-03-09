@@ -144,14 +144,15 @@ marquee{
   }
 
   .sli{
+    display: none;
     padding:0 !important;
     margin: 0 !important;
   }
  
 
 .booking{
-  position: absolute;
-  top:2rem;
+  position: unset;
+  margin-top:2rem;
   z-index: 44444;
 }
 
@@ -252,4 +253,22 @@ label{
   border:1px solid #f51616;
   background-color: white;
   color: #f51616;
+}
+
+@media only screen and (min-width: 769px){
+  .booking{
+    position: absolute;
+    top:2rem;
+  }
+  .sli{
+    display: contents;
+  }
+  .wid{
+    margin-left:8rem;
+  }
+
+}
+
+.wid{
+  width:102%;
 }

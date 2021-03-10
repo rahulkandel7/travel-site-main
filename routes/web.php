@@ -20,3 +20,27 @@ Route::get('/', function () {
 Route::get('/flights', function(){
     return view('/flights/flights');
 });
+
+Route::get('/hotel', function(){
+    return view('/Hotel/hotel');
+});
+
+Route::get('/holiday', function(){
+    return view('/holiday/holiday');
+});
+
+Route::get('/forex', function(){
+    return view('/forex/forex');
+});
+
+Route::get('/visa', function(){
+    return view('/visa/visa');
+});
+
+Route::get('/insurance', function(){
+    return view('/insurance/insurance');
+});
+
+Route::get('/travel-diaries', function(){
+    return view('/traveldiaries/travel');
+});

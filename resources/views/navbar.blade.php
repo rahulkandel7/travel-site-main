@@ -4,7 +4,7 @@
         <div class="row" style="margin-bottom:0">
             <div class="col-md-12">
                 <div class="logo">
-                    <a href="#">
+                    <a href="/">
                         <img src="{{URL::asset('img/logo.png')}}" alt="Pangolin Travel" class="img-logo">
                     </a>
                 </div>
@@ -55,14 +55,14 @@
 <div class="third menu-iccon"></div>
                   </a>
                   <ul class="left hide-on-med-and-down">
-                    <li class=" menu-item " style="background-color:#f51616"><a href="" class="menu-item "> <i class="fas fa-home active-home"></i> </a></li>
-                    <li class="menu-item"><a href="" class="menu-item">Flights</a></li>
-                    <li class="menu-item"><a href="" class="menu-item">Hotel</a></li>
-                    <li class="menu-item"><a href="" class="menu-item">Holiday</a></li>
-                    <li class="menu-item"><a href="" class="menu-item">Forex</a></li>
-                    <li class="menu-item"><a href="" class="menu-item">Visa</a></li>
-                    <li class="menu-item"><a href="" class="menu-item">Insurance</a></li>
-                    <li class="menu-item"><a href="" class="menu-item">Travel Diaries</a></li>
+                    <li class=" menu-item " style="background-color:#f51616"><a href="/" class="menu-item "> <i class="fas fa-home active-home"></i> </a></li>
+                    <li class="menu-item"><a href="/flights" class="menu-item">Flights</a></li>
+                    <li class="menu-item"><a href="/hotel" class="menu-item">Hotel</a></li>
+                    <li class="menu-item"><a href="/holiday" class="menu-item">Holiday</a></li>
+                    <li class="menu-item"><a href="/forex" class="menu-item">Forex</a></li>
+                    <li class="menu-item"><a href="/visa" class="menu-item">Visa</a></li>
+                    <li class="menu-item"><a href="/insurance" class="menu-item">Insurance</a></li>
+                    <li class="menu-item"><a href="/travel-diaries" class="menu-item">Travel Diaries</a></li>
                     <li class="desk-btn-manage"><a href="" class="menu-item desmanage">Manage Booking</a></li>
 
                   </ul>

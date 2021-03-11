@@ -190,3 +190,7 @@ background: linear-gradient(to left, #a83279c7, #d38212c2); /* W3C, IE 10+/ Edge
   .hide{
       opacity:0;
   }
+
+.img{
+    width:100%;
+}

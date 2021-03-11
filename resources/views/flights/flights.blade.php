@@ -48,7 +48,7 @@
         @include('marqueeandslide')
         @include('cards')
         @include('/flights/flightselect')
-        @include('ourservice')
+        @include('/flights/ourservice')
         @include('testonomial')
         @include('newsletter')
         @include('footer')

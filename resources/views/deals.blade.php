@@ -19,12 +19,12 @@
                     <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
                 </div>
                 <div class="col-md-6" style="overflow: hidden; padding:0">
-                    <img src="{{ asset('img/goa.jpg') }}" alt="" class="img-fluid" style="height:30rem">
+                    <img src="{{ asset('img/goa.jpg') }}" alt="" class="img-fluid img" style="height:30rem">
                 </div>
             </div>
             <div class="row deal-row">
                 <div class="col-md-6" style="overflow: hidden; padding:0">
-                    <img src="{{ asset('img/banglore.jpg') }}" alt="" class="img-fluid" style="height:30rem">
+                    <img src="{{ asset('img/banglore.jpg') }}" alt="" class="img-fluid img" style="height:30rem">
                 </div>
                 <div class="col-md-6 bgcolor">
                     <p class="deal-txt">
@@ -47,7 +47,7 @@
                     <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
                 </div>
                 <div class="col-md-6" style="overflow: hidden; padding:0">
-                    <img src="{{ asset('img/goa.jpg') }}" alt="" class="img-fluid" style="height:30rem">
+                    <img src="{{ asset('img/goa.jpg') }}" alt="" class="img-fluid img" style="height:30rem">
                 </div>
             </div>
            
@@ -71,12 +71,12 @@
                     <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
                 </div>
                 <div class="col-md-6" style="overflow: hidden; padding:0">
-                    <img src="{{ asset('img/singapore.jpg') }}" alt="" class="img-fluid" style="height:30rem">
+                    <img src="{{ asset('img/singapore.jpg') }}" alt="" class="img-fluid img" style="height:30rem">
                 </div>
             </div>
             <div class="row deal-row">
                 <div class="col-md-6" style="overflow: hidden; padding:0">
-                    <img src="{{ asset('img/colombo.jpg') }}" alt="" class="img-fluid" style="height:30rem">
+                    <img src="{{ asset('img/colombo.jpg') }}" alt="" class="img-fluid img" style="height:30rem">
                 </div>
                 <div class="col-md-6 bgcolor">
                     <p class="deal-txt">
@@ -99,7 +99,7 @@
                     <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
                 </div>
                 <div class="col-md-6" style="overflow: hidden; padding:0">
-                    <img src="{{ asset('img/singapore.jpg') }}" alt="" class="img-fluid" style="height:30rem">
+                    <img src="{{ asset('img/singapore.jpg') }}" alt="" class="img-fluid img" style="height:30rem">
                 </div>
             </div>
         </div>

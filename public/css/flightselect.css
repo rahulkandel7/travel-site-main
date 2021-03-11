@@ -16,3 +16,20 @@
     padding: 1rem 2.4rem;
     font-size: 2rem;
 }
+#pills-tab{
+    font-size:2rem;
+}
+#pills-tab .nav-link.active{
+    background-color: red !important;
+    color:white !important;
+}
+
+#pills-tab .nav-link{
+    border: 1px solid rgb(78, 77, 77);
+    background-color: white;
+    color: black;
+}
+
+.ml-4{
+    margin-left: 1.5rem;
+}

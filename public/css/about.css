@@ -1,0 +1,24 @@
+.about-txt{
+    color: #177eb6;
+    text-align: center;
+}
+.about_title{
+    text-align: center;
+    color: #f51616;
+}
+
+.about_info{
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+.about_info_list{
+    font-size: 1.8rem;
+    list-style-type: none;
+  }
+  
+  .about_info_list > li:before {
+    content: "–"; /* en dash */
+    position: absolute;
+    margin-left: -1.1em; 
+  }

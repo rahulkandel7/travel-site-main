@@ -7,7 +7,7 @@
 
 .newsletter-text i{
     font-size: 2rem;
-    color: crimson;
+    color: #f51616;
 }
 .te{
     margin-left:1rem;
@@ -18,24 +18,24 @@
     width: 60% !important;
     transition: all 1s ease-in;
     padding: 0 0.5rem !important;
-    color:crimson;
+    color:#f51616;
     
 }
 .email-subs:focus{
-    border: 0.1rem solid crimson !important;
+    border: 0.1rem solid #f51616 !important;
 }
 
 .btn-subs{
     padding:1.05rem;
-    background-color: crimson;
+    background-color: #f51616;
     color: white;
     border:none;
     position: absolute;
 }
 .btn-subs:active, .btn-subs:focus{
-    color:crimson;
+    color:#f51616;
     background-color: white;
-    border: 0.1rem solid crimson;
+    border: 0.1rem solid #f51616;
 }
 
 .newslet{
@@ -59,16 +59,16 @@
         width: 60% !important;
         transition: all 1s ease-in;
         padding: 0 0.5rem !important;
-        color:crimson;
+        color:#f51616;
         
     }
     .email-subs:focus{
-        border: 0.1rem solid crimson !important;
+        border: 0.1rem solid #f51616 !important;
     }
     
     .btn-subs{
         padding:1.05rem;
-        background-color: crimson;
+        background-color: #f51616;
         color: white;
         border:none;
         position: absolute;
@@ -77,7 +77,7 @@
     .btn-subs:active, .btn-subs:focus, .btn-subs:hover{
         color:crimson;
         background-color: white;
-        border: 0.1rem solid crimson;
+        border: 0.1rem solid #f51616;
     }
     .subscribtion{
         margin-top:1.5rem;

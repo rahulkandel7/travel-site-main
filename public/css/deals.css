@@ -15,7 +15,7 @@
     margin-top:2rem;
 }
 .type{
-    color:crimson;
+    color:#f51616;
 }
 .deals-line{
     width: 50%;
@@ -62,14 +62,14 @@
 .booknow{
     padding: .5rem 1rem;
     color: white;
-    background-color: crimson;
+    background-color: #f51616;
     text-align: center;
     border-radius: 2rem;
 }
 .booknow:hover{
-    color:crimson;
+    color:#f51616;
     background-color: white;
-    border-radius: 1px solid crimson;
+    border-radius: 1px solid #f51616;
 }
 .bgcolor{
     background-color: rgb(233, 232, 232);
@@ -136,7 +136,7 @@ background: linear-gradient(to left, #a83279c7, #d38212c2); /* W3C, IE 10+/ Edge
     .booknow{
         padding: .5rem 1rem;
         color: white;
-        background-color: crimson;
+        background-color: #f51616;
         text-align: center;
         font-size: 1.6rem;
         border-radius: 2rem;

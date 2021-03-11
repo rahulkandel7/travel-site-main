@@ -44,3 +44,7 @@ Route::get('/insurance', function(){
 Route::get('/travel-diaries', function(){
     return view('/traveldiaries/travel');
 });
+
+Route::get('/about-us', function(){
+    return view('/about/about');
+});

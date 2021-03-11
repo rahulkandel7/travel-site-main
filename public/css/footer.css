@@ -11,7 +11,7 @@
     transition: all .5s ease-in-out;
 }
 .company-link:hover{
-    color: crimson !important;
+    color: #f51616 !important;
 }
 .bits-name{
     float:left;

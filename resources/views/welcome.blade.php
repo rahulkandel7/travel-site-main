@@ -51,9 +51,10 @@
     <body>
         @include('navbar')
         @include('marqueeandslide')
-        @include('cards')
+        
         @include('service')
         @include('deals')
+        @include('cards')
         @include('ourservice')
         @include('testonomial')
         @include('newsletter')

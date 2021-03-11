@@ -36,6 +36,20 @@
                     <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
                 </div>
             </div>
+            <div class="row deal-row">
+                <div class="col-md-6 bgcolor">
+                    <p class="deal-txt">
+                        Nepal <span class="normaal">To</span> <br> Chitwan
+                    </p>
+
+                    <p class="fare">FARE STARTING AT</p>
+                    <p class="price">Rs 2500*</p>
+                    <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
+                </div>
+                <div class="col-md-6" style="overflow: hidden; padding:0">
+                    <img src="{{ asset('img/goa.jpg') }}" alt="" class="img-fluid" style="height:30rem">
+                </div>
+            </div>
            
         </div>
         <div class="col-md-6">
@@ -72,6 +86,20 @@
                     <p class="fare">FARE STARTING AT</p>
                     <p class="price">Rs 2500*</p>
                     <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
+                </div>
+            </div>
+            <div class="row deal-row">
+                <div class="col-md-6 bgcolor">
+                    <p class="deal-txt">
+                        Nepal <span class="normaal">To</span> <br>Chitwan
+                    </p>
+
+                    <p class="fare">FARE STARTING AT</p>
+                    <p class="price">Rs 2500*</p>
+                    <p class="buttoon"><a href="#" class="booknow"> Book Now </a></p>
+                </div>
+                <div class="col-md-6" style="overflow: hidden; padding:0">
+                    <img src="{{ asset('img/singapore.jpg') }}" alt="" class="img-fluid" style="height:30rem">
                 </div>
             </div>
         </div>

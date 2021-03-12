@@ -1,0 +1,86 @@
+.forex_text{
+    font-size:1.6rem;
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+.shadow{
+    box-shadow: 0 0.1rem 1rem rgba(0,0,0,.15)!important;
+    margin: 0 3rem !important;
+}
+
+.nav-design{
+    height:auto;
+    box-shadow: none;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.nav-design .nav-tabs{
+    border: none;
+}
+
+.nav-design .nav-tabs .nav-link.active{
+    border:none;
+    border-bottom: 2px solid crimson;
+    color: crimson;
+}
+
+.nav-design .nav-tabs .nav-link{
+    color: blue;
+}
+
+.nav-design .nav-tabs .nav-link:hover{
+    border-color:transparent;
+}
+
+.nav-design .nav-tabs .nav-link.active:hover{
+    border-bottom: 2px solid crimson;
+}
+
+.forex_tab{
+    font-size:1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.forex_from-heading{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(70, 69, 69) !important;
+}
+
+.input-field{
+    font-size: 1.4rem;
+}
+
+form label{
+    font-size: 1.6rem !important;
+    top:-1rem !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 2px solid crimson;
+    box-shadow: none;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+    color:crimson;
+}
+
+.forex_btn{
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 1.8rem;
+    transition: all 0.5s ease;
+}
+.forex_btn:hover{
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson
+}

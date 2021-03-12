@@ -16,17 +16,11 @@
         <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/material.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/navbar.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/marqueeandslide.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/cards.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/owl.carousel.min.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/owl.theme.default.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/service.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/deals.css')}}">
+        
         <link rel="stylesheet" href="{{URL::asset('css/ourservice.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/testonomial.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/newsletter.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/footer.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/flightselect.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/forexinside.css')}}">
 
 
         <style>
@@ -50,9 +44,9 @@
     </head>
     <body>
         @include('navbar')
-        <h1 style="text-align:center">Updated Soon</h1>
-        @include('ourservice')
-        @include('testonomial')
+        @include('forex/inside')
+
+        <p></p>
         @include('newsletter')
         @include('footer')
        

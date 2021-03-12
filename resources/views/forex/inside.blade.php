@@ -3,7 +3,7 @@
 </div>
 <div class="container-fluid">
     <div class="row shadow">
-        <div class="col-md-8">
+        <div class="col-md-8" style="border-right:1px solid rgba(201, 196, 196, 0.52); ">
             <p class="forex_text" style="padding-top:1rem">
             Nothing beats the joy of knowing that all your travel needs can be 
             fulfilled under one roof. We are licensed by the Reserve Bank of India 

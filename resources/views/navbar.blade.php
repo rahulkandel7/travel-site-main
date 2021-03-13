@@ -55,28 +55,28 @@
 <div class="third menu-iccon"></div>
                   </a>
                   <ul class="left hide-on-med-and-down">
-                    <li class=" menu-item " style="background-color:#f51616"><a href="/" class="menu-item "> <i class="fas fa-home active-home"></i> </a></li>
-                    <li class="menu-item"><a href="/flights" class="menu-item">Flights</a></li>
-                    <li class="menu-item"><a href="/hotel" class="menu-item">Hotel</a></li>
-                    <li class="menu-item"><a href="/holiday" class="menu-item">Holiday</a></li>
-                    <li class="menu-item"><a href="/forex" class="menu-item">Forex</a></li>
-                    <li class="menu-item"><a href="/visa" class="menu-item">Visa</a></li>
-                    <li class="menu-item"><a href="/insurance" class="menu-item">Insurance</a></li>
-                    <li class="menu-item"><a href="/travel-diaries" class="menu-item">Travel Diaries</a></li>
+                    <li class=" menu-item " style="background-color:#f51616"><a href="{{url('/')}}" class="menu-item "> <i class="fas fa-home active-home"></i> </a></li>
+                    <li class="menu-item"><a href="{{url('/flights')}}" class="menu-item">Flights</a></li>
+                    <li class="menu-item"><a href="{{url('/hotel')}}" class="menu-item">Hotel</a></li>
+                    <li class="menu-item"><a href="{{url('/holiday')}}" class="menu-item">Holiday</a></li>
+                    <li class="menu-item"><a href="{{url('/forex')}}" class="menu-item">Forex</a></li>
+                    <li class="menu-item"><a href="{{url('/visa')}}" class="menu-item">Visa</a></li>
+                    <li class="menu-item"><a href="{{url('/insurance')}}" class="menu-item">Insurance</a></li>
+                    <li class="menu-item"><a href="{{url('/travel-diaries')}}" class="menu-item">Travel Diaries</a></li>
                     <li class="desk-btn-manage"><a href="" class="menu-item desmanage">Manage Booking</a></li>
 
                   </ul>
                 </div>
               </nav>
               <ul class="sidenav" id="mobile-demo">
-                <li><a href="" class="sidemenu-item"> <i class="fas fa-home"></i> </a></li>
-                <li><a href="" class="sidemenu-item">Flights</a></li>
-                <li><a href="" class="sidemenu-item">Hotel</a></li>
-                <li><a href="" class="sidemenu-item">Holiday</a></li>
-                <li><a href="" class="sidemenu-item">Forex</a></li>
-                <li><a href="" class="sidemenu-item">Visa</a></li>
-                <li><a href="" class="sidemenu-item">Insurance</a></li>
-                <li><a href="" class="sidemenu-item">Travel Diaries</a></li>
+                <li><a href="{{url('/')}}" class="sidemenu-item"> <i class="fas fa-home"></i> </a></li>
+                <li><a href="{{url('/flights')}}" class="sidemenu-item">Flights</a></li>
+                <li><a href="{{url('/hotel')}}" class="sidemenu-item">Hotel</a></li>
+                <li><a href="{{url('/holiday')}}" class="sidemenu-item">Holiday</a></li>
+                <li><a href="{{url('/forex')}}" class="sidemenu-item">Forex</a></li>
+                <li><a href="{{url('/visa')}}" class="sidemenu-item">Visa</a></li>
+                <li><a href="{{url('/insurance')}}" class="sidemenu-item">Insurance</a></li>
+                <li><a href="{{url('/travel-diaries')}}" class="sidemenu-item">Travel Diaries</a></li>
                 <li class="btn-manage"><a href="" class="sidemenu-item ">Manage Booking</a></li>
               </ul>
               

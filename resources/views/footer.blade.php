@@ -8,7 +8,7 @@
                 <hr class="company">
                 <ul>
                     <li class="company-link"> 
-                        <a href="/about-us" class="company-link">About Pangolin Travels</a>
+                        <a href="{{url('/about-us')}}" class="company-link">About Pangolin Travels</a>
                     </li>
                     <li>
                         <a href="#" class="company-link">Contact Us</a>

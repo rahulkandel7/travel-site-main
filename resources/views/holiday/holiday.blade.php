@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="{{URL::asset('css/ourservice.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/newsletter.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/footer.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/forexinside.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/holidayinside.css')}}">
 
 
         <style>

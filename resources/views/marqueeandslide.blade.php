@@ -5,14 +5,14 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vitae, saepe quam aperiam n
             </marquee>
         </div>
-        <div class="know">
+        <div class=" know">
             <a href="#" class="know-btn">Know More</a>
         </div> 
     </div>
 </div>
 
 <!-- Booking system -->
-<div class="container wid" style="position:relative">
+<div class="container wid d-flex justify-content-center" style="position:relative">
 <div class="container wid booking">
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">

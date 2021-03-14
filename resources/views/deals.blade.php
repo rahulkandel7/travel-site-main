@@ -53,7 +53,7 @@
            
         </div>
         <div class="col-md-6">
-            <h1 class="deals-heading hidden slideinUp mto">
+            <h1 class="deals-heading hidden slideinUp">
                 Top <span class="type">International</span> Flight Deals
             </h1>
             <p class="deals-text hidden slideinUp">

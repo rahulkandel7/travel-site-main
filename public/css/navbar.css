@@ -189,7 +189,9 @@
         background-color: #f51616;
         color: white;
     }
-    
+    .desk-btn-manage{
+        float:right;
+    }
 }
 
 /* Mobile menu icon css */

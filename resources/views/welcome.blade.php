@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 
         <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
@@ -27,6 +28,8 @@
         <link rel="stylesheet" href="{{URL::asset('css/newsletter.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/footer.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/flightselect.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/afflitaeflight.css')}}">
+
 
 
         <style>
@@ -45,22 +48,22 @@
         <!--Font awesome-->
         <script src="https://kit.fontawesome.com/535ccb550f.js" crossorigin="anonymous"></script>
     
-        <!-- Animate css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    </head>
+   </head>
     <body>
         @include('navbar')
         @include('marqueeandslide')
         @include('cards')
         @include('service')
         @include('deals')
-        @include('cards')
+        @include('affilateflight')
+        @include('cardssecond')
         @include('ourservice')
         @include('testonomial')
         @include('newsletter')
         @include('footer')
        
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
         <script src="{{URL::asset('js/app.js')}}"> </script>
         <script src="{{URL::asset('js/nav.js')}}"> </script>
@@ -113,6 +116,7 @@
                 margin:10,
                 nav:true,
                 dots: true,
+                autoWidth:true,
                 autoplay: true,
                 autoplayTimeout: 2500,
                 autoplayHoverPause:true,
@@ -128,6 +132,29 @@
                     }
                 }
             });
+
+            $(document).ready(function() {
+                $('.logo-carousel').slick({
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1000,
+                    arrows: false,
+                    dots: false,
+                    pauseOnHover: true,
+                    responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                    }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                    }]
+                });
+                });
         </script>
     
 

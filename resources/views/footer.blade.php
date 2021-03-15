@@ -55,22 +55,11 @@
                         Instagram </a>
                     </li>
                     <li>
-                        <a href="#" class="company-link">
-                        <i class="fab fa-telegram-plane telegram" ></i>    
-                        Telegram </a>
+                        <a href="www.youtube.com" class="company-link">
+                        <i class="fab fa-youtube youtube"></i>   
+                        Youtube </a>
                     </li>
-                    <li>
-                        <a href="" class="company-link">
-                        <i class="fab fa-viber" style="color:#665CAC;"></i>  
-                        9851118863
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="company-link">
-                            <i class="fab fa-whatsapp" style="color:#25D366;"></i>
-                            9851118863
-                        </a>
-                    </li>
+                    
                     
                 </ul>
             </div>

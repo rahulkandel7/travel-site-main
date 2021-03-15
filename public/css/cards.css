@@ -160,3 +160,11 @@
     font-size: 8rem !important;
     color: khaki !important;
 }
+
+.affilate-flight{
+    padding-bottom: 3rem;
+}
+
+.affilate-flight .owl-nav{
+    display:none;
+}

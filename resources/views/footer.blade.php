@@ -11,7 +11,7 @@
                         <a href="{{url('/about-us')}}" class="company-link">About Pangolin Travels</a>
                     </li>
                     <li>
-                        <a href="#" class="company-link">Contact Us</a>
+                        <a href="{{url('/contact-us')}}" class="company-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -25,7 +25,7 @@
                         <a href="#" class="company-link">Terms &amp; Conditions</a>
                     </li>
                     <li>
-                        <a href="#" class="company-link">Privacy Policy </a>
+                        <a href="{{url('/privacy')}}" class="company-link">Privacy Policy </a>
                     </li>
                     <li>
                         <a href="#" class="company-link">Disclaimer </a>

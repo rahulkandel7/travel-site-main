@@ -52,3 +52,7 @@ Route::get('/about-us', function(){
 Route::get('/contact-us', function(){
     return view('/contactus/contactus');
 });
+
+Route::get('/privacy', function(){
+    return view('/privacy/privacy');
+});

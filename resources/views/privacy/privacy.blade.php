@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Visa | Pangolin Travel</title>
+        <title>Privacy | Pangolin Travel</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -16,11 +16,10 @@
         <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/material.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/navbar.css')}}">
-        
-        <link rel="stylesheet" href="{{URL::asset('css/ourservice.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/newsletter.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/footer.css')}}">
-        <link rel="stylesheet" href="{{URL::asset('css/holidayinside.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/ourservice.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/forexinside.css')}}">
 
 
         <style>
@@ -44,8 +43,7 @@
     </head>
     <body>
         @include('navbar')
-        @include('visa/inside')
-
+        @include('/privacy/p')
         <p></p>
         @include('newsletter')
         @include('footer')

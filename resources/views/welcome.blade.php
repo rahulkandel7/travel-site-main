@@ -118,17 +118,17 @@
                 loop:true,
                 margin:10,
                 nav:true,
-                dots: true,
-                autoWidth:true,
-                autoplay: true,
+                dots: false,
+                autoWidth:false,
+                autoplay: false,
                 autoplayTimeout: 2500,
                 autoplayHoverPause:true,
                 responsive:{
                     0:{
-                        items:1
+                        items:2
                     },
                     600:{
-                        items:3
+                        items:2
                     },
                     1000:{
                         items:3

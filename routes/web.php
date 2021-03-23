@@ -48,3 +48,7 @@ Route::get('/travel-diaries', function(){
 Route::get('/about-us', function(){
     return view('/about/about');
 });
+
+Route::get('/contact-us', function(){
+    return view('/contactus/contactus');
+});

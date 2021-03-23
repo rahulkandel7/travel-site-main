@@ -63,7 +63,7 @@
                     <li class="menu-item"><a href="{{url('/visa')}}" class="menu-item">Visa</a></li>
                     <li class="menu-item"><a href="{{url('/insurance')}}" class="menu-item">Insurance</a></li>
                     <li class="menu-item"><a href="{{url('/travel-diaries')}}" class="menu-item">Travel Diaries</a></li>
-                    <li class="desk-btn-manage"><a href="" class="menu-item desmanage">Manage Booking</a></li>
+                    <li class="desk-btn-manage"><a href="" class="menu-item desmanage disable">Manage Booking</a></li>
 
                   </ul>
                 </div>

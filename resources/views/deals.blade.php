@@ -1,5 +1,5 @@
-<div class="container">
-    <div class="row " >
+<div class="container ">
+    <div class="row" >
         <div class="col-md-6">
             <h1 class="deals-heading hidden slideinUp">
                 Top <span class="type">Domestic</span> Flight Deals

@@ -62,11 +62,8 @@
                     
                     
                 </ul>
+                <img src="{{asset('img/footer-image.jpeg')}}" alt="association with" class="img-fluid">
             </div>
-        </div>
-        <div class="container d-flex justify-content-center" style="padding-bottom:2rem;">
-            <img src="{{asset('img/footer-image.jpeg')}}" alt="association with" class="img-fluid">
-
         </div>
         <div class="bits">
             <p class="bits-name">&copy; Copyright 2021 Pangolin Travels</p>

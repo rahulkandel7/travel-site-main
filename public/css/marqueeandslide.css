@@ -161,7 +161,7 @@ marquee{
 .booking{
   position: unset;
   margin-top:2rem;
-  z-index: 44444;
+  z-index: 333;
 }
 
 .nav-link.active{
